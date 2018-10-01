@@ -2,6 +2,8 @@
    functions.
 """
 from price_adjustment.adjust_price import price_after_discount, price_after_tax
+import math
+ROUND_OFF_ERROR = 0.001
 
 def test_price_adjustment_discount():
     """Unit test to showcase functionality of applying a discount to an item's
@@ -9,7 +11,7 @@ def test_price_adjustment_discount():
     """
     expected_output_price = 75.0
     output_price = price_after_discount(100.0, 0.25)
-    assert output_price == expected_output_price, \
+    assert math.fabs(output_price - expected_output_price) < ROUND_OFF_ERROR, \
         """Should show that the price is now reduced by 25%."""
 
 def test_price_adjustment_discount_throws_error_price_below_zero():

@@ -17,6 +17,9 @@ def price_after_tax(price, tax_percent):
 
 
 def price_adjustment(price, adjustment):
+    """More general function for computing price adjustments, than computing
+       discounts or price increases separately.
+    """
     if math.fabs(adjustment) > 1:
         raise ValueError("Error: Adjustment is more than 100% of price.")
     else:

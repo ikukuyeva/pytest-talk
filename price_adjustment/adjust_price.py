@@ -5,7 +5,10 @@ import math
 
 def price_after_discount(price, discount_percent):
 	"""Function to compute price after discount is applied."""
-	return price * (1 - discount_percent)
+	if discount_percent > 1:
+		raise ValueError("Error: Discount is more than 100%.")
+	else:	
+		return price * (1 - discount_percent)
 
 
 def price_after_tax(price, tax_percent):

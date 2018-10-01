@@ -1,4 +1,3 @@
-import pytest
 """Module for integration testing of 'adjust_price' functions.
 """
 from price_adjustment.adjust_price import price_after_discount, price_after_tax

@@ -2,8 +2,8 @@
    functions.
 """
 import math
-ROUND_OFF_ERROR = 0.001
 import pytest
+from price_adjustment import ROUND_OFF_ERROR
 from price_adjustment.adjust_price import price_after_discount, price_after_tax,\
                                           price_adjustment
 

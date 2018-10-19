@@ -10,7 +10,7 @@ and `pytest-cov` (to get code coverage)
 
 2. Clone this repository
 
-3. Navigate to `price_adjustment folder` on your computer.
+3. Navigate to `price_adjustment` folder on your computer.
 
 4. Run tests:
 ```

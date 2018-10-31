@@ -1,4 +1,4 @@
-# *pytest*-ing for Everyone
+# *pytest*-ing for Everyone: Writing your First Testing Suite with *pytest*
 
 ## Overview
 - Repo contains code for [PyLadies Los Angeles meetup](https://www.meetup.com/Pyladies-LA/events/254903299/) on November 7, 2018

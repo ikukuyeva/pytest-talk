@@ -1,4 +1,4 @@
-# *pytest*-ing for Everyone: Writing your First Testing Suite with *pytest*
+# Writing your First Testing Suite with *pytest*
 
 ## Overview
 Repository contains sample testing suite to illustrate how to write your first

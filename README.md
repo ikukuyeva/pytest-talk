@@ -1,8 +1,20 @@
 # *pytest*-ing for Everyone: Writing your First Testing Suite with *pytest*
 
 ## Overview
-- Repo contains code for [PyLadies Los Angeles meetup](https://www.meetup.com/Pyladies-LA/events/254903299/) on November 7, 2018
-- Slide [deck](https://goo.gl/VXPFpb)
+Repository contains sample testing suite to illustrate how to write your first
+testing suite and how to do so with `pytest`.
+
+We've all heard that we should be testing our Machine Learning models in
+production and getting good test coverage. This repository and referenced talk
+will give an overview of 4 types of tests: unit, integration, regression and
+parametrized test, via examples in `pytest`, to help you write more robust code
+in no-time, no prior testing experience necessary.
+
+## Associated Slide Decks
+- [IDEAS webinar](http://bit.ly/2YUw0sO) (2019-07-20) slide [deck](http://bit.ly/2XHTFLu)
+- [PyLadies Los Angeles meetup](https://www.meetup.com/Pyladies-LA/events/254903299/) (2018-11-08)
+slide [deck](http://bit.ly/2LSZeoe)
+
 
 ## Running the Code
 1. Prerequisites: install Python 3.6+ and required package `pytest` (to run tests)

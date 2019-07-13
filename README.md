@@ -17,19 +17,28 @@ slide [deck](http://bit.ly/2LSZeoe)
 
 
 ## Running the Code
-1. Prerequisites: install Python 3.6+ and required package `pytest` (to run tests)
-and `pytest-cov` (to get code coverage)
+1. Prerequisites: Install Python 3.6+
 
-2. Clone this repository
+2. (Optionally) Start a virtual environment for the project
 
-3. Navigate to `price_adjustment` folder on your computer.
+3. Clone (or download) this repository
 
-4. Run tests:
+4. Navigate to `price_adjustment` folder on your computer
+```
+cd  price_adjustment
+```
+
+5. Install required package `pytest` (to run tests) and `pytest-cov` (to get code coverage)
+```
+pip install -r requirements.txt 
+```
+
+6. Run tests:
 ```
 pytest tests/. -x --pdb
 ```
 
-5. To check code coverage, run:
+7. To check code coverage, run:
 ```
 pytest tests/. --cov --cov-report=html
 open htmlcov/index.html 

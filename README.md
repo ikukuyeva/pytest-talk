@@ -11,7 +11,7 @@ parametrized test, via examples in `pytest`, to help you write more robust code
 in no-time, no prior testing experience necessary.
 
 ## Associated Slide Decks
-- [IDEAS webinar](http://bit.ly/2YUw0sO) (2019-07-20) slide [deck](http://bit.ly/2JGHOJR)
+- [IDEAS webinar](http://bit.ly/2ZgDavA) (2019-07-20) slide [deck](http://bit.ly/2JGHOJR)
 - [PyLadies Los Angeles meetup](https://www.meetup.com/Pyladies-LA/events/254903299/) (2018-11-08)
 slide [deck](http://bit.ly/2LSZeoe)
 

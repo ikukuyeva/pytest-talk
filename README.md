@@ -25,7 +25,7 @@ slide [deck](http://bit.ly/2LSZeoe)
 
 4. Install required package `pytest` (to run tests) and `pytest-cov` (to get code coverage)
 ```
-pip install -r requirements.txt 
+pip3 install -r requirements.txt 
 ```
 
 ## Run the Code
